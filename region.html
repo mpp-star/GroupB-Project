@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFFFFF;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #C0C0C0;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+</style>
+
+</head>
+<body>
+<!-- The sidebar -->
+<div class="sidebar" id="Home">
+   <a class="active" href="#home">Regions</a>
+  <a href="R.html#Rome">Rome</a>
+  <a href="PL.html#Piemonte and Lombardy">Piemonte and Lombardy</a>
+  <a href="L.html#Liguria">Liguria</a>
+  <a href="V.html#The Veneto and Friuli Giulia"> The Veneto and Friuli Giulia</a>
+  <a href="T.html#Tuscany">Tuscany</a>
+   <a href="U.html#Umbria">Umbria</a>
+  <a href="C.html#Campania">Campania</a>
+  <a href="P.html#Puglia">Puglia</a>
+ <a href="Si.html#Sicily">Sicily</a> 
+<a href="Sa.html#Sardinia">Sardinia</a>
+</div>
+
+<!-- Page content -->
+<div class="image">
+  <img src="travel3.jpg" width="100%">
+</div>
+
+
+
+</body>
+</html>
