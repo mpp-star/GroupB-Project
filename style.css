@@ -1,0 +1,255 @@
+body{
+			width: 100%;
+			height: 50px;
+			color: #555;
+			font-size: 19px ;
+			font-weight: normal;
+			font-family: Arial ,sans-serif;
+			word-spacing: 2px;
+			line-height: 1.5em;
+}
+.heading { text-align: center;
+	background: rgb(240, 245, 255);
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding-top:1px ;
+	padding-bottom: 1px;
+	border-bottom: 2px solid gray;
+}
+.clr {
+	clear: both;
+}
+
+.main{
+	width: 80%;
+	margin: auto;
+
+}
+.box{
+	border: 5px;
+	padding: 10px;
+	width: 100%;
+}
+.box img{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+#big-box-1 {
+	float: left;
+	width: 70%;
+	background: rgb(240, 245, 255);
+	padding: 15px;
+	box-sizing: border-box;
+}
+#big-box-2 {
+	float: right;
+	width: 29%;
+	background: rgb(240, 245, 255);
+	padding: 15px;
+	box-sizing: border-box;
+}
+.picture-3 {
+	float: left;
+	width: 33%;
+	height: auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.picture-3 img {
+	width: 100%;
+	height: auto;
+	
+}
+.japan-head {
+	border-left:5px #84A0FA solid;
+	background-color: rgb(228, 255, 230) ;
+	padding: 15px;
+}
+
+.picture-1 img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.picture-2 {
+	float: left;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.picture-2 img{
+	width: 100%;
+	height: auto;	
+}
+.dicspace {
+	padding-top: 10px;
+}
+#conclusion { padding-top: 50px;
+			
+}
+#conclusion h2 {
+	font-weight: bold; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+#table {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#table h3 {
+	font-weight: bold; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+#reasons li, a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	padding-left: 4px;
+}
+#reasons a:hover {
+  color: #0000FF;
+}
+@media (max-width: 980px) {
+        .hidden-mobile {
+          display: none;
+        }
+      }
+@media (max-width: 980px) {
+		#big-box-1 {
+	float: left;
+	width: 100%;
+	background: rgb(240, 245, 255);
+	padding: 15px;
+	box-sizing: border-box;
+}
+}
+@media (max-width: 980px){
+	body {
+		font-size: 17px;
+	}
+}
+      
+
+.copyright {
+	font-size: 14px;
+}
+
+.commentsbox {
+	width: 80%;
+	border: 2px solid gray ;
+	padding: 15px;
+	margin-top: 25px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 7px gray;
+	margin-top: 60px;
+}
+#placeholder {
+	width: 90%;
+	height: 15px;
+	border: none;
+	border-bottom: 1px solid black;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background: none;
+	resize: none;
+	outline: none;
+	font-size: 16px;
+	font-family: Arial ,sans-serif;
+	color: #555;
+	padding: 5px;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+.commentsbox p {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.divspace {
+	padding-top: 10px;
+	border-bottom: 2px solid gray;
+}
+#button {
+	float:right;
+	margin-top: 100px;
+	font-size: 20px;
+	font-family: Arial ,sans-serif;
+	color: #555;
+	background-color:#F4f3ef;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px gray;
+	padding: 2px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 50px;
+
+}
+.dropdown{
+	
+  display: inline-block;;
+	
+	
+}
+
+.dropdown-content a:hover {background-color: #ddd; border-radius: 50px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #65A8FB;}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+
+}
+.dropbtn {
+  background-color: #65E5FB;
+  color: #5A4AE3 ;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  font-family: Fredoka One;
+  position: relative;
+  margin:0 auto;
+  position: relative;}
+		body{
+			background-image: url(greece.jpg);
+			background-size: cover;
+            background-attachment: fixed;
+		}
+
+		.navbar {
+  overflow: hidden;
+  background: transparent;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: flex;
+  transition: 0.1s;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #FD56E8;
+}
+.navbar a:hover{
+	color: #4EFB99;
+}
